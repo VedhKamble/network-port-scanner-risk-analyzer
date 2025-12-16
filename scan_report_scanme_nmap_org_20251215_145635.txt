@@ -1,0 +1,19 @@
+NETWORK PORT SCAN & RISK ANALYSIS REPORT
+============================================================
+Target    : scanme.nmap.org
+Scan Time : 2025-12-15 14:56:35.040514
+============================================================
+
+Port           : 22
+Service        : SSH
+Risk Level     : HIGH
+Risk Details   : SSH is often targeted by brute-force and credential-stuffing attacks.
+------------------------------------------------------------
+Port           : 80
+Service        : HTTP
+Risk Level     : MEDIUM
+Risk Details   : HTTP traffic is unencrypted and vulnerable to interception.
+------------------------------------------------------------
+
+Disclaimer:
+This scan is intended for educational and authorized testing only.

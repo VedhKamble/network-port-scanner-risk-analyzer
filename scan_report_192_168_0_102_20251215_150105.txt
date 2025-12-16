@@ -1,0 +1,39 @@
+NETWORK PORT SCAN & RISK ANALYSIS REPORT
+============================================================
+Target    : 192.168.0.102
+Scan Time : 2025-12-15 15:01:05.152170
+============================================================
+
+Port           : 21
+Service        : FTP
+Risk Level     : HIGH
+Risk Details   : FTP transmits credentials in clear-text, making it vulnerable to credential theft.
+------------------------------------------------------------
+Port           : 80
+Service        : HTTP
+Risk Level     : MEDIUM
+Risk Details   : HTTP traffic is unencrypted and vulnerable to interception.
+------------------------------------------------------------
+Port           : 139
+Service        : SMB
+Risk Level     : HIGH
+Risk Details   : SMB can be abused for lateral movement inside networks.
+------------------------------------------------------------
+Port           : 445
+Service        : SMB
+Risk Level     : HIGH
+Risk Details   : SMB is commonly exploited by ransomware and worms.
+------------------------------------------------------------
+Port           : 1521
+Service        : Oracle DB
+Risk Level     : HIGH
+Risk Details   : Oracle DB services expose critical business data.
+------------------------------------------------------------
+Port           : 3306
+Service        : MySQL
+Risk Level     : HIGH
+Risk Details   : MySQL exposure can lead to unauthorized database access.
+------------------------------------------------------------
+
+Disclaimer:
+This scan is intended for educational and authorized testing only.
