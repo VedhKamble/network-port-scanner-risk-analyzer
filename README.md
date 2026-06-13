@@ -59,7 +59,8 @@ Each detected open port is accompanied by a **clear explanation of its security 
 ## Project Structure
 
 # Network Port Scanner
-
+```
+bash
 network-port-scanner/
 │
 ├── main.py                  # Main execution entry point
@@ -75,7 +76,7 @@ network-port-scanner/
 ├── requirements.txt         # Required Python dependencies
 │
 └── README.md                # Project documentation
-
+```
 ---
 
 ## How to Run the Project
