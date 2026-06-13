@@ -58,15 +58,23 @@ Each detected open port is accompanied by a **clear explanation of its security 
 
 ## Project Structure
 
+# Network Port Scanner
+
 network-port-scanner/
 │
-├── main.py # Main execution file
-├── scanner.py # TCP port scanning logic
-├── services.py # Port-to-service mapping
-├── risk.py # Risk level & description logic
-├── report.py # Report generation module
-├── requirements.txt
-└── README.md
+├── main.py                  # Main execution entry point
+│
+├── scanner.py               # TCP port scanning engine
+│
+├── services.py              # Port number to service mapping
+│
+├── risk.py                  # Risk classification and vulnerability descriptions
+│
+├── report.py                # Scan result report generation
+│
+├── requirements.txt         # Required Python dependencies
+│
+└── README.md                # Project documentation
 
 ---
 
